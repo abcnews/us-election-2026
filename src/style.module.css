@@ -1,0 +1,35 @@
+.uselection2026 {
+  
+    h2, h3 {
+      text-align: center;
+    }
+  
+
+  :global(.Header.u-full) {
+    text-align: center;
+    ul {
+      justify-content: center;
+    }
+
+    :global(.Header-meta) > div {
+      justify-content: center;
+    }
+  }
+
+  [class*="u-richtext"] > hr::before {
+    margin-left: auto;
+  }
+
+  span[data-tooltip-uri] {
+    display: none;
+  }
+
+  p:has(a[href="#full"]) {
+    text-align: center;
+  }
+
+}
+
+
+
+
