@@ -16,7 +16,7 @@
     }
   }
 
-  [class*="u-richtext"] > hr::before {
+  hr::before {
     margin-left: auto;
   }
 
