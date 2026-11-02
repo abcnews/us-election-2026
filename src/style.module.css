@@ -1,6 +1,6 @@
 .uselection2026 {
   
-    h2, h3 {
+    h2, h3:not(:is([data-injectable] *)) {
       text-align: center;
     }
   
